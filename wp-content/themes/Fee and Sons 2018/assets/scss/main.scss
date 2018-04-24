@@ -1,0 +1,14 @@
+$primary-color:       #D02630;
+
+h1 {
+	color: $primary-color;
+}
+
+h2 {
+	color: $primary-color !important;
+}
+
+.test-flex {
+	display: flex;
+	flex-flow: column;
+}
