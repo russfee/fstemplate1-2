@@ -1,0 +1,102 @@
+/*=================================================
+Buttons
+=================================================== */
+
+.btn,
+input.btn,
+input[type="button"],
+.btn:link,
+.btn:visited,
+.oldernewer p a {
+  color: $white;
+  border: solid 1px $primary-color;
+  background-color: $primary-color;
+  display: inline-block;
+  font-size: .9em;
+  font-weight: 400;
+  line-height: 1;
+  position: relative;
+  padding: .9em 1.8em;
+  border-radius: $border-radius;
+  transition: $transition;
+  text-decoration: none;
+  text-transform: uppercase;
+
+  /*  Generic Button Hover Styling  */
+  /*  ---------------------------------------------------*/
+
+  &:hover {
+    transition: $transition;
+    color: $primary-gray;
+    background: $white;
+    text-decoration: none;
+  }
+
+  /*  Generic Button Focus Styling  */
+  /*  ---------------------------------------------------*/
+  &:focus,
+  &:active {
+    transition: all, 0.25s;
+    color: $white;
+    background: rgba($secondary-color, 0.9);
+    text-decoration: none;
+    outline: none;
+  }
+
+  } // End Base Button Styles---->
+
+
+/*=================================================
+Alternate Button Styling
+=================================================== */
+
+/* Full-width */
+.btn-full,
+.btn.btn-full {
+  width: 100%;
+}
+
+/* Half  */
+.btn-50 {
+  width: 50%;
+}
+
+/*  Aletrnate Colors  */
+/*  ---------------------------------------------------*/
+.btn.btn-secondary {
+  border-color: $secondary-color;
+  color: $secondary-color;
+  &:hover {
+  background-color: $secondary-color;
+  color: $white;
+  }
+}
+
+.btn.btn-tertiary {
+}
+
+.btn.btn-white {
+  background-color: transparent;
+  border-color: $white;
+  color: $white;
+  &:hover {
+  background-color: rgba(251, 251, 251, 0.17);
+  }
+}
+
+  /*------------------------------------------------------------------------*\
+  Submit Buttons
+  \*------------------------------------------------------------------------*/
+  input[type="submit"],
+  button[type="submit"],
+  .btn.btn-submit {
+
+    /*  Submit Button Hover Styling  */
+    /*  ---------------------------------------------------*/
+    &:hover {
+      background-color: darken($secondary-color, 20%);
+      border-color: darken($secondary-color, 20%);
+      color: $white;
+    }
+
+    } // End Submit Button Styling ---->

@@ -1,14 +1,24 @@
-$primary-color:       #D02630;
+/* Base Styles
+=================================================== */
 
-h1 {
-	color: $primary-color;
-}
+@import 'base/base';
+@import 'base/reset';
+@import 'base/variables';
+@import 'base/typography';
 
-h2 {
-	color: $primary-color !important;
-}
 
-.test-flex {
-	display: flex;
-	flex-flow: column;
-}
+
+/* Elements
+=================================================== */
+@import 'elements/buttons';
+@import 'elements/containers';
+@import 'elements/forms';
+@import 'elements/inputs';
+
+/* Modules
+=================================================== */
+
+
+
+/* Specific
+=================================================== */
