@@ -5,7 +5,7 @@
 				<p>&copy; <?php echo date("Y") ?> <a href="<?php echo esc_url( home_url() ) ?>/" title="<?php bloginfo('description'); ?>"><?php bloginfo('name'); ?></a>. All Rights Reserved.</p>
 			</div><!-- copyright -->
 			<div class="designed-by">
-				<p>Website designed by <a title="Build Studio Inc." href="http://buildstudio.ca" target="_blank" rel="nofollow">Build Studio</a></p>
+				<p>Website designed by <a title="Fee and Sons Creative" href="http://feeandsonscreative.com" target="_blank" rel="nofollow">Fee and Sons Creative</a></p>
 			</div><!-- designed-by-->
 		</div> <!--footer-container-->
 	</div><!-- row -->

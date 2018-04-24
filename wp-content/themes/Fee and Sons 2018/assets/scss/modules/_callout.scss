@@ -1,0 +1,58 @@
+/* Module - Callout
+================================================== */
+.callout-single-container {
+	padding: 40px 0;
+	overflow: hidden;
+	min-height: 300px;
+	display: flex;
+	flex-flow: column;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.callout-single-content-container {
+	display: flex;
+	flex-flow: column;
+}
+
+.callout-justify-center {
+	justify-content: center;
+}
+.callout-justify-start {
+	justify-content: flex-start;
+}
+.callout-justify-end {
+	justify-content: flex-end;
+}
+.callout-align-center {
+	align-items: center;
+}
+.callout-align-start {
+	align-items: flex-start;
+}
+.callout-align-end {
+	align-items: flex-end;
+}
+.callout-multiple-container {
+	display: flex;
+	flex-flow: row;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.callout-multiple-indvidual {
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	padding: 40px;
+	max-width: 300px;
+}
+.callout-multiple-image {
+	
+}
+.callout-multiple-headline {
+	
+}
+.callout-multiple-paragraph {
+	padding-bottom: 20px;
+}

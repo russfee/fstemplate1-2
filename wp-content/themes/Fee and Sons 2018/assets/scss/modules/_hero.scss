@@ -1,0 +1,52 @@
+/* Module - Hero
+================================================== */
+#banner{
+	display: flex;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;	  
+	height: 400px;
+}
+
+.banner-content {
+	height: 100%;
+	width: 100%;
+	padding: 0 40px;
+	/*background: #34957355;*/
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+}
+
+.flex-start {
+	align-items: flex-start;
+}
+.flex-center {
+	align-items: center;
+}
+.flex-end {
+	align-items: flex-end;
+}
+
+
+.overlay-black {
+	background: linear-gradient(rgba(20,20,20, .5),rgba(20,20,20, .5));
+}
+.overlay-white {
+	background: linear-gradient(rgba(255,255,255, .5),rgba(255,255,255, .5));
+}
+
+.words {
+	
+}
+.home-banner-headline {
+	font-size: 2.5em;
+	font-weight: bold;
+	color: #333;
+}
+.home-banner-subtitle {
+	font-size: 1.5em;
+	margin: 20px 0;
+	color: #333;
+}

@@ -1498,5 +1498,145 @@ li#field_5_4.gfield.gf_right_half.field_sublabel_below.field_description_below.h
 
 /* Modules
 =================================================== */
+/* Module - Callout
+================================================== */
+.callout-single-container {
+  padding: 40px 0;
+  overflow: hidden;
+  min-height: 300px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: column;
+  flex-flow: column;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.callout-single-content-container {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: column;
+  flex-flow: column;
+}
+
+.callout-justify-center {
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.callout-justify-start {
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+
+.callout-justify-end {
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
+.callout-align-center {
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.callout-align-start {
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+.callout-align-end {
+  -ms-flex-align: end;
+  align-items: flex-end;
+}
+
+.callout-multiple-container {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: row;
+  flex-flow: row;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.callout-multiple-indvidual {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: column;
+  flex-flow: column;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 40px;
+  max-width: 300px;
+}
+
+.callout-multiple-paragraph {
+  padding-bottom: 20px;
+}
+
+/* Module - Hero
+================================================== */
+#banner {
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 400px;
+}
+
+.banner-content {
+  height: 100%;
+  width: 100%;
+  padding: 0 40px;
+  /*background: #34957355;*/
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: column;
+  flex-flow: column;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.flex-start {
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+.flex-center {
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.flex-end {
+  -ms-flex-align: end;
+  align-items: flex-end;
+}
+
+.overlay-black {
+  background: linear-gradient(rgba(20, 20, 20, 0.5), rgba(20, 20, 20, 0.5));
+}
+
+.overlay-white {
+  background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
+}
+
+.home-banner-headline {
+  font-size: 2.5em;
+  font-weight: bold;
+  color: #333;
+}
+
+.home-banner-subtitle {
+  font-size: 1.5em;
+  margin: 20px 0;
+  color: #333;
+}
+
 /* Specific
 =================================================== */
